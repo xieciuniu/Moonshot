@@ -46,6 +46,7 @@ struct MissionView: View {
                         Text("Mission Highlights")
                             .font(.title.bold())
                             .padding(.bottom, 5)
+//                            .foregroundColor(.red)
                         
                         Text(mission.description)
                         
